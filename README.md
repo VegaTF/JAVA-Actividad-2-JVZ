@@ -1,18 +1,22 @@
-## Getting Started
+# Actividad 2: Gestión de Rutas de Transporte
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Descripción**  
+Proyecto de programación orientada a objetos en Java. Simula la gestión de una flota de vehículos (camiones y furgonetas), conductores y rutas de transporte.  
 
-## Folder Structure
+**Clases principales**  
+- `Vehiculo` (abstracta), `Camion`, `Furgoneta`  
+- `Empleado`  
+- `Ruta`  
+- `IGestionRutas` (interfaz) y `GestionRutas` (implementación)  
 
-The workspace contains two folders by default, where:
+**Objetivos**  
+- Practicar herencia y POO.  
+- Gestionar colecciones (`List`, `Map`).  
+- Implementar métodos de análisis y cálculo de datos de rutas y vehículos.  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Pruebas**  
+- `TestHerencia`: prueba vehículos y carga disponible.  
+- `TestGestionRutas`: prueba métodos de gestión de rutas.  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Autor**  
+Jorge Vega
